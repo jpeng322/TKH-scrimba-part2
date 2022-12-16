@@ -1,0 +1,58 @@
+#root {
+  /* border: 1px solid black; */
+  background-color: rgb(255, 51, 0);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  /* border-radius: 1rem; */
+}
+
+.header > svg {
+  width: 1rem;
+  fill: white;
+}
+
+.card {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 800px;
+  gap: 2rem;
+  background-color: rgb(247, 245, 245);
+  padding: 3rem;
+}
+
+.header {
+  background-color: rgb(255, 51, 0);
+  /* border: 1px solid black; */
+  text-align: center;
+  color: rgb(247, 245, 245);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.card-location {
+  display: flex;
+  gap: .2rem
+}
+
+.card-location > svg {
+  width: .7rem;
+  fill: rgb(255, 51, 0);
+}
+
+
+img {
+  height: 500px;
+  width: 400px;
+  border-radius: 1rem;
+}
+
+span {
+  color: rgb(144, 141, 141);
+  font-size: .8rem;
+  text-decoration: underline;
+  margin-left: .8rem;
+}
